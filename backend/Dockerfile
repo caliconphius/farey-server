@@ -1,5 +1,5 @@
 # ── Build stage ───────────────────────────────────────────────────────────────
-FROM julia:1.12 AS builder
+FROM julia:1.12.5 AS builder
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ RUN julia --project=. setup.jl
 COPY src/ ./src/
 
 # ── Runtime stage ─────────────────────────────────────────────────────────────
-FROM julia:1.12 AS runtime
+FROM julia:1.12.5 AS runtime
 
 WORKDIR /app
 
