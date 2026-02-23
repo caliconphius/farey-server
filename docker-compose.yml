@@ -13,6 +13,5 @@ services:
     container_name: proxy
     ports:
       - 80:80
-      - 8090:8090
     depends_on:
       - backend
