@@ -8,11 +8,12 @@ end
     return queryparams(req)
 end
 
-@get "/farey" function ()
+@get "/farey" function (req)
+    input = json()
     "$(ContinuedFraction(30//1323))"
 end
 
-const PORT = parse(Int, get(ENV, "PORT", "8080"))
+const PORT = parse(Int, get(ENV, "PORT", "8000"))
 
 # F2 = FreeGroup((;:f=>:F, :g=>:G))
 # f, g = GPC.gens(F2)
