@@ -1,9 +1,9 @@
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Farey = "25ec4c3e-37ad-41bf-bc1b-e639ba3b65a6"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Oxygen = "df9a0d86-3283-4920-82dc-4555fc0d1d8b"
-
 
 [sources]
 Farey = {url = "https://github.com/caliconphius/farey-words.git"}
