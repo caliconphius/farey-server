@@ -23,4 +23,4 @@ COPY --from=builder /app /app
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["julia", "--project=.", "src/oxygen_server.jl"]
+CMD ["julia", "--project=.", "src/server.jl"]
