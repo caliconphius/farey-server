@@ -2,7 +2,7 @@
 
 ## Structure
 
-```
+```{}
 farey-server/
 ├── src/
 │   └── server.jl        # Application entry point & route definitions
@@ -17,4 +17,3 @@ farey-server/
 | Method | Path          | Description            |
 |--------|---------------|------------------------|
 | GET    | `/`           |      "Hello World"     |
-
